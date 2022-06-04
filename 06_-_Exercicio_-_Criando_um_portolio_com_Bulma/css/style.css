@@ -1,0 +1,21 @@
+.message .message-body {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: gray !important;
+}
+
+@media (max-width: 426px) {
+  .media{
+    flex-direction: column;
+  }
+
+  .media-left{
+    margin-left: 1.75rem !important;
+    margin-bottom: 12px;
+  }
+
+  #text{
+    margin-top: 12px;
+  }
+}
